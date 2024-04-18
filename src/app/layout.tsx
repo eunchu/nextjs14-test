@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
-import ogImage from "../../public/openGraph-img.jpeg";
+import ogImage from "../../public/preview.jpg";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,7 +21,8 @@ export const metadata: Metadata = {
     url: "https://nextjs14-test-nine.vercel.app",
     images: {
       // url: "/openGraph-img.jpeg",
-      url: "/preview.jpg",
+      // url: "/preview.jpg",
+      url: ogImage.src,
       width: ogImage.width,
       height: ogImage.height,
     },
@@ -31,7 +32,8 @@ export const metadata: Metadata = {
     description: "Description of the app",
     images: {
       // url: "/openGraph-img.jpeg",
-      url: "/preview.jpg",
+      // url: "/preview.jpg",
+      url: ogImage.src,
       width: ogImage.width,
       height: ogImage.height,
     },
