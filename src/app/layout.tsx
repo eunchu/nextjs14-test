@@ -16,7 +16,8 @@ export const metadata: Metadata = {
     locale: "ko_KR",
     url: "https://nextjs14-test-nine.vercel.app",
     images: {
-      url: "/openGraph-img.jpeg",
+      // url: "/openGraph-img.jpeg",
+      url: "/preview.jpg",
       width: ogImage.width,
       height: ogImage.height,
     },
@@ -25,7 +26,8 @@ export const metadata: Metadata = {
     title: "App Title",
     description: "Description of the app",
     images: {
-      url: "/openGraph-img.jpeg",
+      // url: "/openGraph-img.jpeg",
+      url: "/preview.jpg",
       width: ogImage.width,
       height: ogImage.height,
     },
