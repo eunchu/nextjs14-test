@@ -32,6 +32,11 @@ export const metadata: Metadata = {
       height: ogImage.height,
     },
   },
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   metadataBase: new URL("https://nextjs14-test-nine.vercel.app"),
   icons: {
     icon: "/favicon.ico",
