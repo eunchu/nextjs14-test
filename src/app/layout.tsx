@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: "https://nextjs14-test-nine.vercel.app",
     images: {
       // url: "/openGraph-img.jpeg",
-      url: "/preview.jpg",
+      url: "https://health.chosun.com/site/data/img_dir/2023/07/17/2023071701753_0.jpg",
       // url: ogImage.src,
       width: ogImage.width,
       height: ogImage.height,
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description: "Description of the app",
     images: {
       // url: "/openGraph-img.jpeg",
-      url: "/preview.jpg",
+      url: "https://health.chosun.com/site/data/img_dir/2023/07/17/2023071701753_0.jpg",
       // url: ogImage.src,
       width: ogImage.width,
       height: ogImage.height,
