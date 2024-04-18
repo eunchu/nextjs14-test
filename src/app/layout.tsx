@@ -9,6 +9,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "App Title",
   description: "Description of the app",
+  authors: [{ name: "eunju" }],
+  referrer: "origin-when-cross-origin",
+  creator: "eunju",
+  publisher: "eunju",
   openGraph: {
     title: "App Title",
     description: "Description of the app",
